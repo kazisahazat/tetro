@@ -1,0 +1,863 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 479.98px) {
+
+/*========== Navbar part start ==========*/
+.navbar {
+    background: #04050a;
+    border-bottom: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	transition: all linear .4s;
+	z-index: 9999;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.fa.fa-bars {
+	color: #fff;
+    font-size: 30px;
+}
+.navbar-nav .nav-item {
+	background: #1f2137;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+
+/*=========== Banner part start ===========*/
+#banner {
+	padding-top: 204px;
+	padding-bottom: 160px;
+}
+#banner {
+	background: url(../images/man.jpg);
+    position: relative;
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6)
+}
+.banner-item{
+    position: relative;
+    z-index: 99;
+}
+.banner-item {
+	padding-top: 0;
+}
+.banner-item h1 {
+    font-size: 26px;
+}
+.banner-item p {
+    padding-right: 30px;
+}
+.banner-item h3 {
+	font-size: 22px;
+}
+/*=========== About part start ===========*/
+#about {
+    padding-top: 60px;
+	padding-bottom: 0;
+}    
+.hadding-one h3 {
+    font-size: 30px;
+}
+.about-hadding i {
+	font-size: 15px;
+}
+.about-hadding::before {
+	width: 53px;
+	top: 46px;
+	right: 91px;
+}
+.about-hadding::after {
+	width: 53px;
+	top: 47px;
+	left: 92px;
+}
+.about-main h3 {
+	padding-bottom: 40px;
+	padding-top: 30px;
+}
+.education {
+	padding-top: 50px;
+}
+.skill_hadding h3 {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.about-main-img::after {
+	display: none;
+}
+#skill {
+	padding-bottom: 30px;
+}
+.prog-text {
+	padding-left: 15px;
+}
+.resume-item {
+    margin-right: 0; 
+	padding-right: 15px;
+}
+/*=========== Service part start ===========*/
+#service {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+.headding h2 {
+	font-size: 27px;
+}
+.service-hadding::before {
+	width: 105px;
+	top: 47px;
+	right: 30px;
+}
+.service-hadding::after {
+	width: 105px;
+	top: 47px;
+	left: 30px;
+}  
+.mt-200 {
+    display: none;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.portfolio-hadding::after {
+	width: 80px;
+	top: 46px;
+	left: 58px;
+}
+.portfolio-hadding::before {
+	width: 80px;
+	top: 46px;
+	right: 58px;
+}
+.nav-link {
+	margin-bottom: 20px;
+}
+.counter-item {
+	padding-bottom: 40px;
+}
+.about-counter {
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+/*=========== Blog part start ===========*/
+#blog {
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+.blog-hadding::before {
+	width: 43px;
+	top: 47px;
+	right: 93px;
+}
+.blog-hadding::after {
+	width: 43px;
+	top: 47px;
+	left: 93px;
+}
+.blog-content p {
+	text-align: center;
+}
+.post-slide .post-title a::after {
+	display: none;
+}
+.right {
+	z-index: 0;
+}
+.left {
+	z-index: 0;
+}
+/*=========== Contact part start ===========*/
+#contact {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.contact-hadding::before {
+	width: 65px;
+	top: 46px;
+	right: 70px;
+}
+.contact-hadding::after {
+	width: 65px;
+	top: 46px;
+	left: 70px;
+}
+.contact-first {
+	padding-bottom: 40px;
+}
+.form input[type="text"] {
+	width: 90%;
+}
+.form input[type="email"] {
+	margin-left: 0;
+	width: 90%;
+}
+#mb-30 {
+    margin-bottom: 30px;
+}
+#soci-space {
+	padding-top: 40px;
+	padding-bottom: 0;
+}    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+/*=========================== Extra small 2 devices 
+=======================================================================*/
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+.navbar {
+    background: #04050a;
+    border-bottom: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	transition: all linear .4s;
+	z-index: 9999;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.fa.fa-bars {
+	color: #fff;
+    font-size: 30px;
+}
+.navbar-nav .nav-item {
+	background: #1f2137;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+
+/*=========== Banner part start ===========*/
+#banner {
+	padding-top: 224px;
+	padding-bottom: 180px;
+}
+#banner {
+	background: url(../images/man.jpg);
+    position: relative;
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6)
+}
+.banner-item{
+    position: relative;
+    z-index: 99;
+}
+.banner-item {
+	padding-top: 0;
+}
+.banner-item h1 {
+	font-size: 40px;
+}
+.banner-item p {
+    padding-right: 100px;
+}
+.banner-item h3 {
+	font-size: 22px;
+}
+/*=========== About part start ===========*/
+.hadding-one h3 {
+    font-size: 30px;
+}
+.about-hadding::before {
+	width: 50px;
+	top: 46px;
+	right: 148px;
+}
+.about-hadding::after {
+	width: 50px;
+	top: 47px;
+	left: 148px;
+}
+#about {
+    padding-top: 60px;
+	padding-bottom: 0;
+}    
+.education {
+	padding-top: 50px;
+}
+.skill_hadding h3 {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.about-main-img::after {
+	display: none;
+}
+#skill {
+	padding-bottom: 30px;
+}
+.prog-text {
+	padding-left: 15px;
+}
+.resume-item {
+    margin-right: 0; 
+	padding-right: 15px;
+}
+/*=========== Service part start ===========*/
+#service {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+.headding h2 {
+	font-size: 27px;
+}
+.mt-200 {
+    display: none;
+}
+.service-hadding::before {
+	width: 110px;
+	top: 47px;
+	left: 253px;
+}
+.service-hadding::after {
+	width: 110px;
+	top: 47px;
+	left: 87px;
+}
+
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.portfolio-hadding::before {
+	width: 82px;
+	top: 46px;
+	right: 116px;
+}
+.portfolio-hadding::after {
+	width: 82px;
+	top: 46px;
+	left: 116px;
+}
+.nav-link {
+	margin-bottom: 20px;
+}
+.counter-item {
+	padding-bottom: 40px;
+}
+.about-counter {
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+/*=========== Blog part start ===========*/
+#blog {
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+.blog-hadding::after {
+	width: 50px;
+	top: 46px;
+	left: 150px;
+}
+.blog-hadding::before {
+	width: 50px;
+	top: 46px;
+	right: 150px;
+}
+.blog-content p {
+	text-align: center;
+}
+.post-slide .post-title a::after {
+	display: none;
+}
+.right {
+	z-index: 0;
+}
+.left {
+	z-index: 0;
+}
+.post-slide .post-date {
+	top: -329px;
+	right: 34px;
+}
+
+/*=========== Contact part start ===========*/
+#contact {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.contact-hadding::before {
+	width: 70px;
+	top: 46px;
+	right: 126px;
+}
+.contact-hadding::after {
+	width: 70px;
+	top: 46px;
+	left: 126px;
+}
+.contact-first {
+	padding-bottom: 40px;
+}
+.form input[type="text"] {
+	width: 90%;
+}
+.form input[type="email"] {
+	margin-left: 0;
+	width: 90%;
+}
+#mb-30 {
+    margin-bottom: 30px;
+}
+#soci-space {
+	padding-top: 40px;
+	padding-bottom: 0;
+}   
+  
+    
+    
+    
+}
+
+
+
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*========== Navbar part start ==========*/
+.navbar {
+    background: #04050a;
+    border-bottom: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+.navbar-toggler {
+	background-color: transparent;
+    font-size: 24px;
+}
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.fa.fa-bars {
+	color: #fff;
+}
+.navbar-nav .nav-item {
+	background: #1f2137;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+}
+/*=========== banner part start ===========*/
+#banner {
+	padding-top: 200px;
+	padding-bottom: 240px;
+}
+.banner-item p {
+	padding-right: 98px;
+}
+.banner-item h1 {
+	font-size: 38px;
+}
+/*=========== about part start ===========*/
+.about-hadding::before {
+	width: 104px;
+	top: 69px;
+	right: 129px;
+}
+.about-hadding::after {
+	width: 104px;
+	top: 69px;
+	left: 129px;
+}
+.about-main h3 {
+	padding-top: 65px;
+}
+.education {
+	padding-top: 40px;
+}
+#skill {
+	padding-bottom: 0;
+}
+.prog-text {
+	padding-left: 15px;
+}
+/*=========== service part start ===========*/
+#service {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.service-hadding::before {
+	width: 206px;
+	top: 69px;
+	right: 25px;
+}
+.service-hadding::after {
+	width: 206px;
+	top: 69px;
+	left: 25px;
+}
+.service-item {
+	padding: 35px 55px;
+}
+.mt-200 {
+	margin-top: 0;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-bottom: 15px;
+}
+.portfolio-hadding::before {
+	width: 155px;
+	top: 69px;
+	right: 75px;
+	background: #fff;
+}
+.portfolio-hadding::after {
+	width: 155px;
+	top: 69px;
+	left: 75px;
+}
+/*=========== blog part start ===========*/
+#blog {
+	padding-bottom: 29px;
+}
+.blog-hadding::before {
+	width: 102px;
+	top: 69px;
+	right: 129px;
+}
+.blog-hadding::after {
+	width: 102px;
+	top: 69px;
+	left: 129px;
+}
+.post-slide .post-date {
+	top: -178px;
+	right: 16px;
+}
+.right {
+	top: 46%;
+}
+.left {
+	top: 46%;
+}
+.post-slide .post-content {
+	padding-bottom: 20px;
+    padding-left:  25px;
+    padding-top: 1px;
+    padding-right:  0;
+}
+.post-slide .post-title a {
+	font-size: 22px;
+}
+.post-slide .post-title a::after {
+	bottom: -30px;
+}
+/*=========== Contact part start ===========*/
+.contact-hadding::before {
+	width: 140px;
+	top: 69px;
+	right: 89px;
+}
+.contact-hadding::after {
+	width: 140px;
+	top: 69px;
+	left: 89px;
+}.contact-first {
+	padding-bottom: 40px;
+}
+#mb-30 {
+    margin-bottom: 30px;
+}
+#soci-space {
+	padding-top: 40px;
+	padding-bottom: 0;
+}   
+    
+}
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*========== Navbar part start ==========*/
+.navbar-light .navbar-toggler {
+	color: #000;
+    border: 0;
+}
+.navbar-toggler {
+	background-color: transparent;
+    font-size: 24px;
+} 
+.navbar-light .navbar-nav .nav-link {
+	margin-right: 0;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	margin-right: 40px;
+}
+.navbar-light .navbar-nav .nav-link i {
+	font-size: 16px;
+    padding-left: 0; 
+	display: block;
+	text-align: center;
+}
+/*=========== banner part start ===========*/
+#banner {
+	padding-top: 220px;
+	padding-bottom: 220px;
+}
+.banner-item p { 
+	padding-right: 250px;
+}
+    
+
+/*=========== about part start ===========*/
+#about {
+	padding-top: 30px;
+}
+.about-hadding::before {
+	right: 216px;
+}
+.about-hadding::after {
+	left: 216px;
+}
+.about-btn {
+	margin-top: 1px;
+	margin-bottom: 40px;
+}    
+.about-btn a {
+    margin-bottom: 0;
+}
+.about-main-img::after {
+    top: 18px;
+	right: -18px;
+}
+.about-main h3 {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+.education {
+	padding-top: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+#skill {
+	padding-bottom: 0;
+}
+.about-btn a {
+	position: relative;
+	right: 100px;
+	margin-top: 30px;
+}
+/*=========== service part start ===========*/
+#service {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.service-hadding::before {
+	right: 116px;
+}
+.service-hadding::after {
+	left: 116px;
+}
+.mt-200 {
+	margin-top: 0;
+}
+.mt-200 .service-item {
+	padding: 30px 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.portfolio-hadding::before {
+	right: 163px;
+}
+.portfolio-hadding::after {
+	left: 163px;
+}
+/*=========== blog part start ===========*/
+#blog {
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+.blog-hadding::before {
+	right: 220px;
+}   
+.blog-hadding::after {
+	left: 220px;
+}   
+#contact {
+	padding-top: 30px;
+}
+.contact-hadding::before {
+	right: 180px;
+} 
+.contact-hadding::after {
+	left: 180px;
+}    
+    
+    
+}
+/*============================ Large devices 
+=========================================================================*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*=========== about part start ===========*/
+.about-hadding::before {
+	right: 17px;
+}
+.about-hadding::after {
+	left: 17px;
+}
+.about-main h3 {
+	padding-bottom: 20px;
+}
+.about-btn {
+	margin-top: 0;
+}
+#skill {
+	padding-bottom: 0;
+}
+.education {
+	padding-top: 50px;
+}
+/*=========== service part start ===========*/
+#service {
+	padding-bottom: 13px;
+}
+.service-hadding h3 {
+	font-size: 48px;
+}    
+.service-hadding::after {
+	width: 198px;
+	left: 3px;
+}
+.service-hadding::before {
+	width: 198px;
+	right: 3px;
+}    
+/*=========== portfolio part start ===========*/
+#portfolio {
+	padding-top: 20px;
+	padding-bottom: 4px;
+}
+.portfolio-hadding h3 {
+	font-size: 49px;
+}    
+.portfolio-hadding::after {
+	width: 158px;
+	left: 6px;
+}
+.portfolio-hadding::before {
+	width: 158px;
+	right: 6px;
+}
+/*=========== blog part start ===========*/
+#blog {
+	padding-bottom: 20px;
+}
+.blog-hadding::before {
+	height: 2px;
+	right: 20px;
+}
+.blog-hadding::after {
+	height: 2px;
+	left: 20px;
+}    
+.post-slide .post-title a {
+	font-size: 16px;
+}    
+    
+    
+/*=========== Contact part start ===========*/    
+.contact-hadding h3 {
+	font-size: 43px;
+}    
+.contact-hadding::before {
+	width: 119px;
+	top: 62px;
+	right: 2px;
+}
+.contact-hadding::after {
+	width: 119px;
+	top: 62px;
+	left: 2px;
+}
+.form input[type="email"] {
+	margin-left: 20px;
+}
+    
+
+}
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) {
+.lg-logo {
+    display: none;
+}
+    
+}
+
+
